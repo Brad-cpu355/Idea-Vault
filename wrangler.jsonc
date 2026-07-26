@@ -1,16 +1,14 @@
 {
+  "$schema": "node_modules/wrangler/config-schema.json",
   "name": "idea-vault",
-  "main": "src/index.js",
-  "compatibility_date": "2026-01-01",
-  "assets": {
-    "directory": "./public",
-    "binding": "ASSETS"
+  "compatibility_date": "2026-07-26",
+  "observability": {
+    "enabled": true
   },
-  "d1_databases": [
-    {
-      "binding": "DB",
-      "database_name": "idea-vault-db",
-      "database_id": "70ed587b-a077-4a24-8bec-4f99a5736d1a"
-    }
+  "assets": {
+    "directory": "public"
+  },
+  "compatibility_flags": [
+    "nodejs_compat"
   ]
 }
