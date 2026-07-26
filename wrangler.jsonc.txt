@@ -1,0 +1,16 @@
+{
+  "name": "idea-vault",
+  "main": "src/index.js",
+  "compatibility_date": "2026-01-01",
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "idea-vault-db",
+      "database_id": "70ed587b-a077-4a24-8bec-4f99a5736d1a"
+    }
+  ]
+}
